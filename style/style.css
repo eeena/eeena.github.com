@@ -1,0 +1,136 @@
+html {
+	background-color: #fffcfc;
+}
+
+body {
+	font-family: Ubuntu;
+	color: #4f4f4f;
+	margin: 0px;
+}
+
+div#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#header {
+	margin: 40px 20px 20px 20px;
+}
+
+div#header img {
+	height: 45px; 
+}
+
+div#header a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+a#about {
+	float: right;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+div#modal-background {
+	visibility: collapse;
+	z-index: 1000;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.75;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+div#modal-window {
+	visibility: collapse;
+	z-index: 1001;
+	position: absolute;
+	background-color: #fffcfc;
+	top: 200px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+}
+
+div#modal-content {
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #f0f0f0;
+}
+
+div#modal-content > img#modal-close {
+	position: absolute;
+	top: -30px;
+	left: 375px;
+	cursor: pointer;
+}
+
+div#modal-content > img#signature {
+	height: 25px; 
+	margin: 10px;
+}
+
+
+div#header a.nav:hover {
+	border-bottom: 1px solid #4f4f4f;
+}
+
+div#content {
+	clear: both;
+}
+
+div#footer {
+	text-align: right;
+	margin: 10px 0px;
+}
+
+div.category {
+	position: relative;
+	overflow: hidden; 
+	white-space: nowrap; 
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+div.category-name {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 150px;
+	font-size: 2.5em;
+}
+
+div.group {
+	z-index: 1;
+	display: inline-block; 
+	background-color: #f0f0f0; 
+	padding: 10px;
+	opacity: 0.20;
+	margin-right: 6px;
+}
+
+div.items {
+}
+
+img.item {
+	height: 300px;
+}
+
+div.group-description {
+}
+
+div.grab {
+	cursor: url(https://mail.google.com/mail/images/2/openhand.cur), default !important;
+}
+
+div.grabbing {
+	cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), default !important;
+}
